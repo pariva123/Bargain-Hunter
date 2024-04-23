@@ -13,14 +13,16 @@ public class House {
 	private String houseDescription;
 	private int bedrooms;
 	private int baths;
+	
 	private int area;
 	private String itemImageURL;
 	private int pincode;
 	private String address;
+	private int price;
 	
 	
 	public House(String houseId, String houseType, String houseDescription, int bedrooms, int baths, int area,
-			String itemImageURL, int pincode, String address) {
+			String itemImageURL, int pincode, String address , int price) {
 		super();
 		this.houseId = houseId;
 		this.houseType = houseType;
@@ -31,6 +33,17 @@ public class House {
 		this.itemImageURL = itemImageURL;
 		this.pincode = pincode;
 		this.address = address;
+		this.price = price;
+	}
+
+
+	public int getPrice() {
+		return price;
+	}
+
+
+	public void setPrice(int price) {
+		this.price = price;
 	}
 
 
