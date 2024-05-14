@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Bargain Hunter Frontend
 
 ## Description
@@ -44,5 +44,5 @@ To start the development server, run:
 npm start
 ```
 =======
-# Bargain-Hunter
->>>>>>> my_new_repo/main
+
+
